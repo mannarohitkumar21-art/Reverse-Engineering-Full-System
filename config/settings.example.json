@@ -1,0 +1,16 @@
+{
+  "project_name": "Authorized Target App",
+  "analysis_mode": "source_and_artifacts",
+  "authorization_confirmed": false,
+  "allow_network_testing": false,
+  "allow_binary_execution": false,
+  "output_directory": "reports",
+  "redact_secrets": true,
+  "evidence_labels": [
+    "Observed",
+    "Inferred",
+    "Unknown",
+    "Not applicable"
+  ],
+  "reconstruction_requires_explicit_approval": true
+}
